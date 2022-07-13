@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../Fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family:Lato;
+    src: url(../Fonts/Lato/Lato-Light.ttf);
+}
+h1{
+    font-family: Montserrat;
+    color:white;
+    font-size: 3rem;
+    line-height:2.5rem;
+}
+.about{
+    background-color: var(--mainBackground);
+}
+.item p{
+    font-size:20px;
+    font-family:Lato;
+    line-height:1.875rem;
+    font-weight: 600;;
+}
+/* .starColor::before{
+    content:"";
+    width:50%;
+    height:60px;
+    display: inline-block;
+    background-color: red;
+    position: absolute;
+    top:2px;
+    left:auto;
+  }
+   */

@@ -1,0 +1,21 @@
+.home{
+    background-color: var(--mainBackground)
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../Fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family:Lato;
+    src: url(../Fonts/Lato/Lato-Light.ttf);
+}
+h1{
+    font-size:4rem;
+    font-family: Montserrat;
+    line-height:3.5rem;
+}
+p{
+    font-size:1.5rem;
+    line-height:2.25rem;
+    font-family:Lato;
+}

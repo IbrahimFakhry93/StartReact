@@ -1,0 +1,40 @@
+h1{
+    color:var(--mainColor);
+}
+h2{
+    color:var(--mainColor);
+}
+.layer{
+    background-color: var(--mainBackground);
+    opacity:0;
+    transition: opacity 0.6s;
+}
+.layer i{
+    font-size:7rem;
+}
+.layer:hover{
+    opacity:0.7
+}
+
+#xMark{
+    cursor:pointer;
+    color:var(--mainBackground);
+}
+
+#closeBtn{
+    background-color: var( --mainBackground);
+    transition: all 0.5s;
+}
+#closeBtn:hover{
+    background-color: #159A80 !important;
+}
+@font-face {
+    font-family: Lato400;
+    src: url(../Fonts/Lato/Lato-Bold.ttf);
+}
+.popUpText{
+  font-family: Lato400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color:#212529
+}
